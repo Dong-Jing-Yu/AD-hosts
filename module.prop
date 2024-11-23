@@ -1,0 +1,6 @@
+id=AD-Hosts
+name=AD Hosts
+version=v6.4.0
+versionCode=640
+author=东经雨
+description=本模块是依然的爱的二改版本,使用时请关闭其它带有hosts文件的模块,例如:systemless hosts模块。
