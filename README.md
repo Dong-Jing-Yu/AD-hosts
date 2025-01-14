@@ -1,11 +1,8 @@
 # AD hosts
-### 依然的爱/AiSauce
-*替换hosts文件屏蔽广告*
-
-## 本项目永远免费,且开源
-如果你看到以任何收费形式内置本hosts的ROM/模块,请告诉我
 
 ### 介绍
+本模块修改自依然的爱的[AD hosts](https://github.com/E7KMbb/AD-hosts)
+
 > 替换hosts屏蔽广告。由于hosts工作机制有部分的广告无法通过hosts来进行屏蔽,以优酷为例,优酷的视频广告和视频内容一起放在同一个域名里如果屏蔽该域名那么视频也会无法观看。
 
 ### 安装模式区别
@@ -31,3 +28,6 @@
 
 ### 黑名单
 [无法再用hosts屏蔽广告的名单](https://github.com/E7KMbb/AD-hosts/blob/master/black.md)
+
+### 原作链接
+[AD-hosts](https://github.com/E7KMbb/AD-hosts)
