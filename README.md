@@ -16,7 +16,9 @@
 - 修改`/sdcard/Android/ADhosts/Cron.ini`中的参数后执行`Regular_update.sh`以应用，更新时间的填写规则请参考`Cron.ini`内描述
 
 ### 注意
-目前好像无法使用KernelSU刷入
+
+目前好像无法使用KernelSU刷入,刷入时因检测音量按键而进入死循环
+
 本模块的工作目录为`/sdcard/Android/ADhosts`
 内部文件为：
   - `Start.sh`手动更新脚本
