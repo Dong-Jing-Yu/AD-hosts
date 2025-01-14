@@ -227,9 +227,9 @@ ui_print "  音量+ = GitHub链接(国外推荐)"
 ui_print "  音量– = Coding镜像链接(国内推荐)"
 if chooseport; then
   ui_print "已选择GitHub链接"
-  sed -i "s/<link>/https:\/\/raw.githubusercontent.com\/E7KMbb\/AD-hosts\/master\/system\/etc\/hosts/g" $MODPATH/script/select.ini
+  sed -i "s/<link>/https:\/\/raw.githubusercontent.com\/Dong-Jing-Yu\/AD-hosts\/master\/system\/etc\/hosts/g" $MODPATH/script/select.ini
 else
-  ui_print "已选择Coding镜像链接"
+  ui_print "已选择gitee镜像链接"
   sed -i "s/<link>/https:\/\/aisauce.coding.net\/p\/ad-hosts\/d\/ad-hosts\/git\/raw\/master\/system\/etc\/hosts/g" $MODPATH/script/select.ini
 fi
 
